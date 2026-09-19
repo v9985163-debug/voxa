@@ -1,0 +1,53 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
+
+    .navigation {
+        display: flex;
+        align-items: center;
+
+        nav.menu ul {
+            display: flex;
+        }
+
+    }
+    
+    .btns {
+        display: flex;
+    }
+
+    a.shop-btn {
+
+    }
+
+    a.sign-up {
+
+    }
+
+    a.visit-now {
+
+    }
+}
+
+img {
+  display: block;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+span {
+    color: #ffffff;
+}
+
+.welcom {
+    background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
+}
+
