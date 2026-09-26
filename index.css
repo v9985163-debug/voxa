@@ -9,31 +9,67 @@ header {
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
+    padding: 1rem 4rem;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 
     .navigation {
         display: flex;
         align-items: center;
+        width: 45%;
+        justify-content: space-between;
+
+        .brand {
+            font-size: 2rem;
+        }
+        
+        nav {
+            width: 70%;
+        }
 
         nav.menu ul {
             display: flex;
-        }
+            list-style-type: none; 
+            margin: 0;             
+            padding: 0;
+            width: 100%;
+            justify-content: space-between;
 
+            .menu-item {
+                opacity: .8;
+                transition: opacity .5s ease-in-out;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            .menu-item.active {
+                opacity: 1;
+            }
+        }
     }
     
     .btns {
         display: flex;
-    }
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 4rem;
+        
+        a.shop-btn {
+        
+        }
 
-    a.shop-btn {
-
-    }
-
-    a.sign-up {
-
-    }
-
-    a.visit-now {
-
+        a.sign-up {
+        
+        }
+       
+        a.visit-now {
+        
+        }
     }
 }
 
@@ -51,3 +87,6 @@ span {
     background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
 }
 
+.need {
+    color:darkorange;
+}
