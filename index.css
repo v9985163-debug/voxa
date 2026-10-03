@@ -58,34 +58,84 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 1rem 4rem;
+        gap: 40px;
+      
         
         a.shop-btn {
-        
+            opacity: .8;
+            transition: opacity .5s ease-in-out;
+            border: 1px solid white;
+            border-radius: 3rem;
+            padding: .5rem .6rem;
+            height: 38;
+            width: 38;
+
+            svg {
+                margin: 1px -1px -1px 1px;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
         }
 
         a.sign-up {
-        
+            opacity: .8;
+            transition: opacity .5s ease-in-out;
+            border: 1px solid white;
+            border-radius: 3rem;
+            padding: .5rem .6rem;
+
+            &:hover {
+                opacity: 1;
+            }
         }
        
         a.visit-now {
-        
+            opacity: .8;
+            transition: opacity .5s ease-in-out;
+            border-radius: 3rem;
+            padding: .5rem .65rem;
+            background: white;
+            color: black;
+            &:hover {
+                opacity: 1;
+            }
         }
     }
 }
 
-img {
-  display: block;
-  margin-right: 50px;
-  margin-top: 30px;
-}
+    .welcome {
+     background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
+        a.shop-now{
+            text-decoration: none;
+            border-radius: 3rem;
+            padding: .5rem .65rem;
+            background: white;
+            color: black;
+            opacity: .8;
+                transition: opacity .5s ease-in-out;
+
+                &:hover {
+                    opacity: 1;
+                }  
+            }
+        a.text{
+            color: #ffffff;
+        }
+        a.pict{
+            
+        }
+    }
+
+
+
+
 
 span {
     color: #ffffff;
 }
 
-.welcom {
-    background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
-}
 
 .need {
     color:darkorange;
