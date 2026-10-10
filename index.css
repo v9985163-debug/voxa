@@ -1,5 +1,10 @@
+@media screen and (width >= 1440px) {
+    body {
+        width: 1440px;
+    }    
+}
+
 body {
-    width: 1440px;
     margin: 0 auto;
     padding: 0 3rem;
 }
@@ -12,7 +17,7 @@ header {
     padding: 1rem 4rem;
     
     a {
-        color: #fff;
+        color: #ffffff;
         text-decoration: none;
     }
 
@@ -103,14 +108,16 @@ header {
             }
         }
     }
-}
 
+}
     .welcome {
      background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
+     padding: 3rem 3rem;
+
         a.shop-now{
             text-decoration: none;
             border-radius: 3rem;
-            padding: .5rem .65rem;
+            padding: .5rem .6rem;
             background: white;
             color: black;
             opacity: .8;
@@ -120,23 +127,33 @@ header {
                     opacity: 1;
                 }  
             }
+    
+
         a.text{
-            color: #ffffff;
+            color:#ffffff;
         }
-        a.pict{
-            
+
+        img{
+            /* position: right; */
+            width: 300px;
+            height: 200px;
         }
     }
 
 
 
-
-
 span {
     color: #ffffff;
-}
+} 
 
+    .model-list { 
 
-.need {
-    color:darkorange;
-}
+        .need {
+            color:darkorange;
+        }
+ 
+        .text2 {
+            font-size: 30px;
+            color:#333131
+        }
+    }
