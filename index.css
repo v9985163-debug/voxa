@@ -111,34 +111,49 @@ header {
 
 }
     .welcome {
-     background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
-     padding: 3rem 3rem;
+        display: flex;
+        background: linear-gradient(25deg, #1446a1, #266d96, #6391e7);
+        padding: 3rem 3rem;
+        justify-content: space-between;
+        
 
-        a.shop-now{
-            text-decoration: none;
-            border-radius: 3rem;
-            padding: .5rem .6rem;
-            background: white;
-            color: black;
-            opacity: .8;
+        .text{
+            color:#ffffff;
+
+            a.shop-now {
+                text-decoration: none;
+                border-radius: 3rem;
+                padding: .75rem .9rem;
+                background: white;
+                color: black;
+                opacity: .8;
                 transition: opacity .5s ease-in-out;
 
                 &:hover {
                     opacity: 1;
                 }  
-            }
-    
 
-        a.text{
-            color:#ffffff;
+                img {
+                    width: 25px;
+                    height: 25px;
+                    margin: .5rem 0 -0.5rem 0;
+                }
+            }
         }
 
-        img{
-            /* position: right; */
-            width: 300px;
-            height: 200px;
+        .preview img {
+            width: 500px;
+            height: 500px;
+            padding: 1rem 12rem;
+        }
+
+        .video {
+            width: 10px;
+            height: 10px;
+            padding: 1rem 1rem;
         }
     }
+
 
 
 
