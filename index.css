@@ -152,8 +152,8 @@ header {
                 overflow: hidden;
 
                 img {
-                    border: 2px solid white;
-                    border-radius: 3rem;
+                    border: 1px solid white;
+                    border-radius: 1rem;
                     width: 200px;
                     height: 100px;
                 }
@@ -176,6 +176,8 @@ span {
 } 
 
     .model-list { 
+        display: flex;
+        gap: 1rem;
 
         .need {
             color:darkorange;
@@ -183,6 +185,37 @@ span {
  
         .text2 {
             font-size: 30px;
-            color:#333131
+            color:#000000;
+        
         }
+
+        .new_color {
+            color:#333131;
+        }
+
+        .model_watch {
+            width: fit-content;
+            border-radius: 1rem;
+            overflow: hidden;
+            position: relative;
+
+            img{
+                width: 300px;
+                height: 400px;
+            }
+
+            .info {
+                position: absolute;
+                bottom: 0;
+                background: linear-gradient(#00000000, #000000);
+                color: white;
+
+                .header {
+                    background: transparent;
+                }
+            }
+        }
+
+        
     }
+
